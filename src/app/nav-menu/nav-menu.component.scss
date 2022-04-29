@@ -1,0 +1,31 @@
+@import "../../styles.scss";
+
+.nav-menu{
+    padding:15px 25px;
+    width: 100%;
+    background-color: $base-blue;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+
+    &-logo{
+        font-weight: 700;
+        font-size: 30px;
+        color:$base-magnolia;
+        margin-right: 30px;
+    }
+
+    &-item{
+        font-size:18px;
+        font-weight: 500;
+        color: $base-magnolia;
+        padding: 10px 20px;
+        margin-right: 5px;
+
+        &:hover{
+            cursor: pointer;
+            background-color: $base-blue-light;
+            border-radius: 5px;
+        }
+    }
+}
