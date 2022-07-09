@@ -1,21 +1,7 @@
-@import "../../styles.scss";
-
-.products-container{
-    width: 100%;
-    background-color: $base-magnolia;
-    height: 1000px;
-    font-family: 'Roboto',sans-serif;
-    color: $base-black;
+.list-wrapper{
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 62.5em;
-    padding: 10px 30px;
-
-    &-item{
-
-        &-header{
-            font-weight: 700;
-            font-size: 20px;
-        }
-
-    }
+    padding: 10px 10%;
+    justify-content: space-around;
 }

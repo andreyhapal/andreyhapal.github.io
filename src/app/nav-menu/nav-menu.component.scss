@@ -1,12 +1,11 @@
 @import "../../styles.scss";
 
 .nav-menu{
-    padding:15px 25px;
-    width: 100%;
+    padding:10px 25px;
     background-color: $base-blue;
     display: flex;
-    font-family: 'Roboto', sans-serif;
     user-select: none;
+    align-items: center;
 
     &-logo{
         font-weight: 700;
