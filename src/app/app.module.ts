@@ -7,6 +7,7 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductCardComponent } from './products/product-card/product-card.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FooterComponent } from './footer/footer.component';
     NavMenuComponent,
     ProductsComponent,
     ProductCardComponent,
-    FooterComponent
+    FooterComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
