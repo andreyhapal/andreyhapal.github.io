@@ -28,3 +28,12 @@
         }
     }
 }
+
+.menu-basket{
+    margin-left: auto;
+    margin-right: 10px;
+
+    &:hover{
+        cursor: pointer;
+    }
+}

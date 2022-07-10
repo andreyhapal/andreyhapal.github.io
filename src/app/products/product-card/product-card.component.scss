@@ -10,16 +10,25 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    border-radius: 5px;
+    transition: box-shadow .3s;
+
+    &:hover{
+        box-shadow: 0 0 11px rgba(20,36,138,.4); 
+    }
 }
 
 .card-label {
-    padding: 10px 5px 5px 5px;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    inline-size: 240px;
+    overflow-wrap: break-word;
 }
 
 .buy-button {
     padding: 7px 10px;
     margin: 5px;
-    background-color: #14248a;
+    background-color: rgb(20, 36, 138);
     color: white;
 
     &:hover {
@@ -44,4 +53,11 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
+}
+
+.price-label{
+    font-weight: bold;
+    padding: 10px 5px 0px 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 }
